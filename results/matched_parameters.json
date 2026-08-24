@@ -1,0 +1,67 @@
+{
+  "common_critical_state": {
+    "p_kpa": 166.66666666666666,
+    "q_kpa": 199.99999999999997,
+    "V": 1.7693504625740406
+  },
+  "state_mappings": {
+    "dense": {
+      "state_parameter": -0.05,
+      "mcc_pc_kpa": 543.6563656918092,
+      "mcc_pc_over_p": 5.436563656918093,
+      "matched_yield_p_kpa": 205.4384898640589,
+      "matched_yield_q_kpa": 316.3154695921767,
+      "norsand_OCR": 7.458538370865458
+    },
+    "loose": {
+      "state_parameter": 0.02,
+      "mcc_pc_kpa": 134.06400920712787,
+      "mcc_pc_over_p": 1.3406400920712787,
+      "matched_yield_p_kpa": 117.60052152605473,
+      "matched_yield_q_kpa": 52.801564578164204,
+      "norsand_OCR": 1.7182643505123298
+    }
+  },
+  "mcc_parameters": {
+    "M": 1.2,
+    "lambda_c": 0.06,
+    "kappa": 0.01,
+    "N": 1.8346573590279973,
+    "nu": 0.2,
+    "p_ref": 100.0,
+    "max_strain_step": 0.0001,
+    "p_min": 1e-06
+  },
+  "evp_parameters": {
+    "M": 1.2,
+    "lambda_c": 0.06,
+    "kappa": 0.01,
+    "psi_visc": 0.0001,
+    "N": 1.8346573590279973,
+    "t0": 1.0,
+    "nu": 0.2,
+    "Z": 1.0,
+    "p_ref": 100.0,
+    "stress_tolerance": 0.0001,
+    "flow_floor": 0.0001,
+    "max_substeps": 200000,
+    "p_min": 1e-06
+  },
+  "norsand_parameters": {
+    "Gamma": 0.8,
+    "lambda_c": 0.06,
+    "M_tc": 1.2,
+    "chi_tc": 4.5,
+    "N_coupling": 0.3,
+    "H0": 37.0,
+    "Hy": 260.0,
+    "G_ref": 13400.0,
+    "m": 1.0,
+    "nu": 0.2,
+    "p_ref": 100.0,
+    "Z": false,
+    "softening_formulation": "algorithm",
+    "max_strain_step": 0.0001,
+    "p_min": 1e-05
+  }
+}

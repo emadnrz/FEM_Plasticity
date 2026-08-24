@@ -1,0 +1,52 @@
+{
+  "common": {
+    "initial_effective_pressure": 100.0,
+    "critical_stress_ratio": 1.2,
+    "compression_slope": 0.06,
+    "swelling_slope": 0.01,
+    "critical_void_ratio_at_reference": 0.8,
+    "poisson_ratio": 0.2,
+    "reference_pressure": 100.0,
+    "strain_rate": 0.001
+  },
+  "states": {
+    "dense": {
+      "MCC": {
+        "state_parameter": -0.05,
+        "preconsolidation_pressure": 543.6563656918092,
+        "initial_specific_volume": 1.75
+      },
+      "EVP": {
+        "state_parameter": -0.05,
+        "preconsolidation_pressure": 543.6563656918092,
+        "viscosity_index": 0.0001,
+        "initial_specific_volume": 1.75
+      },
+      "NorSand": {
+        "state_parameter": -0.05,
+        "OCR": 7.458538370865458,
+        "initial_specific_volume": 1.75,
+        "H0_undrained_calibration": 75.0
+      }
+    },
+    "loose": {
+      "MCC": {
+        "state_parameter": 0.02,
+        "preconsolidation_pressure": 134.06400920712787,
+        "initial_specific_volume": 1.82
+      },
+      "EVP": {
+        "state_parameter": 0.02,
+        "preconsolidation_pressure": 134.06400920712787,
+        "viscosity_index": 0.0001,
+        "initial_specific_volume": 1.82
+      },
+      "NorSand": {
+        "state_parameter": 0.02,
+        "OCR": 1.7182643505123298,
+        "initial_specific_volume": 1.82,
+        "H0_undrained_calibration": 75.0
+      }
+    }
+  }
+}

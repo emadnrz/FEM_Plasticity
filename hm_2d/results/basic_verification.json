@@ -1,0 +1,14 @@
+{
+  "interpolation_and_quadrature": {
+    "partition_of_unity_error": 1.1102230246251565e-16,
+    "natural_gradient_sum_error": 2.7755575615628914e-17,
+    "axisymmetric_volume_relative_error": 2.445639893474446e-16
+  },
+  "elastic_undrained_patch": {
+    "pore_pressure_relative_error": 1.2933157682069096e-12,
+    "deviator_stress_relative_error": 5.4862870686520194e-14,
+    "radial_total_stress_error_kpa": 0.0,
+    "mass_residual_norm": 2.0022911520779177e-16,
+    "momentum_residual_norm": 2.0879131756856843e-16
+  }
+}

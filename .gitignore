@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+.venv/
+results/fe_hex8_dense_mcc.*
+.publish-git/
